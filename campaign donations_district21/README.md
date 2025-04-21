@@ -10,7 +10,7 @@ The spreadsheets come from the following sources:
 https://docs.google.com/spreadsheets/d/1-pSUtpd-dWTGKDhvYMGhpDPdQjWNvDZkB3P7i_22gpM/edit?usp=sharing: Raw data of https://www.nyccfb.info/FTMSearch/Home/FTMSearch
 Each of the compiled data sets contain, among others, the following columns relevant to the analysis:
 
-RECIPNAME - The name of a candidate that recieved a donation for their campaign. As of publishing, there are seven candidates: David Aiken, Yanna M. Henriquez, Hiram Monserrate, Erycka Montoya, Sandro S. Navarro, Diane Rose and Shanel Thomas-Henry.
+RECIPNAME - The name of a candidate that recieved a donation for their campaign. As of publishing, there are seven candidates: David Aiken, Yanna M. Henriquez, Hiram Monserrate, Erycka Montoya, Sandro S. Navarro, Diane Rose and Shanel Thomas-Henry. No campaign funding information is available for Diane Rose, therefore it is not included in this analysis. 
 
 RECIPID — Each candidate has a unique identification number that is between 3-4 characters long.
 
