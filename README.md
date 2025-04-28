@@ -1,12 +1,14 @@
-**Analysis of New York City Campaign Finance data for City Council race of District 21 — 01/15/2022 to 03/13/2025**
+## Analysis of New York City Campaign Finance data for City Council race of District 21 — 01/15/2022 to 03/13/2025
 This repository contains data, analytic code, and findings that support portions of the article, “In a highly competitive City Council race, donations are mounting,” published April 21, 2025. Please read that article, which contains important context and details, before proceeding.
 
 **Data**
+
 This analysis uses New York City Campaign Finance Board (NYCCFB) data for the campaigns of each candidate in District 21.
 
 The spreadsheets come from the following sources:
 
 **Compiled Google Sheets:**
+
 https://docs.google.com/spreadsheets/d/1-pSUtpd-dWTGKDhvYMGhpDPdQjWNvDZkB3P7i_22gpM/edit?usp=sharing: Raw data of https://www.nyccfb.info/FTMSearch/Home/FTMSearch
 Each of the compiled data sets contain, among others, the following columns relevant to the analysis:
 
@@ -19,6 +21,7 @@ OCCUPATION — This title is self-reported by donors and is not verified by the 
 AMNT - The amount donated by each donor. 
 
 **Methodology**
+
 The notebook campaigndonations_district21.ipynb performs the following analysis:
 
 Part 1: Importing Data 
@@ -31,6 +34,7 @@ Part 3: Donors by Occupation
 Finally, to see which donors were donating the most in each campaign, I used grouby and aggregation functions. Doing so enabled me to see that retirees were the highest occupation group to donate for two candidates with the highest total amount of campaignn donations: Shenal Thomas-Henry and Hiram Monserrate. 
 
 **Outputs**
+
 The notebooks output this spreadsheet which contains donors organized by self-reported occuption title, sorted from greatest to least sum of their donations per candidate: output/tktktk.csv.
 
 **Running the analysis yourself**
